@@ -1,10 +1,15 @@
 // OBJECTS PART :- I 
+//In JavaScript, an object is a collection of key-value pairs, 
+//where each key is a unique identifier for the associated value. Objects are dynamic, which means the properties can be added, modified, or deleted at runtime.
+ //An object can have a property that is itself another object, 
+ //enabling the creation of complex data structures.
+
+
 
 //Single ton ----------> Single ton creates when we use Constructor creation for Objects.
 //Object.create.
 
 //litterals--->  
-
 const key = Symbol("KeyId")
 const myObj = {
     [key]:101,//--------> if we want to use Sybol data types then we have to use[].
